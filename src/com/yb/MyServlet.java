@@ -28,7 +28,7 @@ public class MyServlet extends HttpServlet {
             ResultSet resultSet = preparedStatement.executeQuery();
             resultSet.next();
             String str = "id"+resultSet.getString("id")+"\n"
-                    +"user_name" + resultSet.getString("user_name") + "\n"
+                    +"user_name11" + resultSet.getString("user_name") + "\n"
                     +"age" + resultSet.getString("age") + "\n"
                     +"sex" + resultSet.getString("sex") + "\n"
                     +"tel_no" + resultSet.getString("tel_no") + "\n";
